@@ -18,8 +18,8 @@ def check_data(data, verbose):
         elif not isinstance(data, pd.DataFrame):
             raise TypeError("data must be pandas.DataFrame or numpy.ndarray")
 
-        if data.index.unique().shape[0] != data.shape[0]:
-            raise ValueError("'data' index is not unique")
+        # if data.index.unique().shape[0] != data.shape[0]:
+        #     raise ValueError("'data' index is not unique")
 
         verbose_cat("  -> data              : " + str(data.shape[0]) + " rows " + str(data.shape[1]) + " cols",
                     verbose=verbose)
