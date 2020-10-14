@@ -8,3 +8,9 @@ python/misc/*
 */.ipynb_checkpoints/*
 **.ipynb
 **.pickle
+
+**/.idea/*
+**/.ipynb_checkpoints/*
+**/__pycache__/*
+**/.tox/*
+**/dalex.egg-info/*
